@@ -50,9 +50,10 @@ input#ajaxToggle:focus:before {
 
 span#ajaxLoadProgress {
     position: relative;
+    left: 4px;
 }
 
-#ajaxLoadProgress img {
+span#ajaxLoadProgress img {
     position: absolute;
     top: -10px;
 }
