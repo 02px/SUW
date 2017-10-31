@@ -5,6 +5,7 @@ input#ajaxToggle {
     width: 24px;
     height: 12px;
     vertical-align: bottom;
+    cursor: pointer;
 }
 
 input#ajaxToggle:before {
@@ -46,6 +47,10 @@ input#ajaxToggle:checked:after {
 input#ajaxToggle:focus:before {
     outline: none;
     box-shadow: 0 0 5px #529ecc;
+}
+
+input#ajaxToggle:active:after {
+    opacity: 0.8;
 }
 
 span#ajaxLoadProgress {
